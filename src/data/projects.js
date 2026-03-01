@@ -1,8 +1,13 @@
+import myrush from "../assets/MyRushApp-Mockup.jpg";
+import rushmockup from "../assets/rushmockup.jpg";
+import CWmockup from "../assets/CW-OCE-mockup.jpg"; 
+import ttlanding from "../assets/tt-landing.png";
+
 export const projects = [
     {
     title: "My Rush Mobile App",
     category: "Product Design (Mobile)",
-    image: "src/assets/MyRushApp-Mockup.jpg",
+    image: myrush,
     summary: "Redesigned and relaunched Rush’s mobile app to deliver a personalized, streamlined patient experience.",
     overview: "My Rush is a reimagined mobile experience built on Epic’s MyChart backend, replacing a generic white-labeled app with a personalized, action-oriented dashboard. The project focused on improving appointment scheduling, surfacing relevant care information, and centralizing key patient actions into a single mobile hub.",
     role: "Independent UX/UI Contractor",
@@ -16,7 +21,7 @@ export const projects = [
     id: 2,
     title: "Tails & Trails",
     category: "UX/UI Design & Frontend Development",
-    image: "src/assets/tt-landing.png",
+    image: ttlanding,
     summary: "A conversion-focused landing page for a trusted, community-based pet walking service.",
     overview: "Tails & Trails is a responsive landing page designed for busy pet owners seeking reliable local walkers. The goal was to build trust quickly through clear hierarchy, familiar interaction patterns, and accessible design decisions while structuring the page as a reusable foundation for future expansion.",
     role: "UX/UI Designer & Frontend Developer",
@@ -31,7 +36,7 @@ export const projects = [
     id: 3,
     title: "UI Refresh for a Large Academic Health System",
     category: "UX/UI Design",
-    image: "src/assets/rushmockup.jpg",
+    image: rushmockup,
     summary: "A modern website and appointment‑page redesign that streamlines scheduling, highlights virtual‑care options, and boosts user engagement for a major academic health system.",
     overview: "Redesigned the public website and appointment flow for a large academic health system, integrating Epic MyChart deep‑links, high‑visibility CTAs, and a refreshed visual language. The project improved traffic, conversion rates, and overall usability while staying on schedule.",
     role: "UX/UI Designer II",
@@ -45,7 +50,7 @@ export const projects = [
     id: 4,
     title: "App Feature for a Pediatric Health System",
     category: "UX/UI Design",
-    image: "src/assets/CW-OCE-mockup.jpg",
+    image: CWmockup,
     summary: "A mobile‑first, responsive UI that centralizes on‑campus resources for families navigating the Children’s Wisconsin hospital campus.",
     overview: "Designed and implemented a mobile‑first UI for Children’s Wisconsin’s app, creating a centralized hub for dining, lodging, family‑support services, and way‑finding. The solution emphasizes accessibility, large touch targets, and clear visual hierarchy for both young patients and their caregivers.",
     role: "UX/UI Designer II",

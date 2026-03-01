@@ -1,4 +1,3 @@
-// src/components/ProjectModal.js
 import React from 'react';
 
 function ProjectModal({ project, onClose }) {
@@ -19,7 +18,7 @@ function ProjectModal({ project, onClose }) {
           {project.title}
         </h2>
 
-                {/* Role, Timeline, Stack */}
+        {/* Role, Timeline, Stack */}
         <div className="flex flex-col md:flex-row gap-4 mb-4">
           <div>
             <h4 className="text-sm font-medium text-neutral-500">Role</h4>
@@ -31,7 +30,6 @@ function ProjectModal({ project, onClose }) {
           </div>
           <div>
             <h4 className="text-sm font-medium text-neutral-500">Tools & Stack</h4>
-            <p>{project.stack.join(', ')}</p>
           </div>
         </div>  
 
@@ -40,14 +38,15 @@ function ProjectModal({ project, onClose }) {
         <p className="text-neutral-600 mb-4">
           {project.overview}
         </p>
+
         {/* Challenges & Solutions */}
-         <h3 className="text-1xl font-semibold mt-6 mb-2">Challenges</h3>
+        <h3 className="text-1xl font-semibold mt-6 mb-2">Challenges</h3>
         <p className="text-neutral-600 mb-4">
           {project.challenges}
         </p>
         <h3 className="text-1xl font-semibold mt-6 mb-2">Solutions</h3>
         <p className="text-neutral-600 mb-4">
-          {project.solutions}
+          {project.solution}
         </p>
 
         {/* Live Project Link */}
