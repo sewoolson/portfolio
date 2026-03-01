@@ -37,7 +37,7 @@ function Projects() {
 
                 {/* Hover Overlay */}
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <button className="bg-white text-black px-6 py-2 rounded-full font-medium">
+                  <button className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-violet-300 transition">
                     View Case Study
                   </button>
                 </div>
