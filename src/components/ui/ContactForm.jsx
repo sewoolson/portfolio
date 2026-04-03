@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'; // Import useRef
+import React, { useState, useRef } from 'react'; // 
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
@@ -8,7 +8,7 @@ const ContactForm = () => {
     message: ''
   });
   const [status, setStatus] = useState('');
-  const formRef = useRef(); // Create a reference for the form
+  const formRef = useRef(); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -23,10 +23,10 @@ const ContactForm = () => {
 
     if (formData.name && formData.email && formData.message) {
       emailjs.sendForm('contact_service', 'contact_form', formRef.current, 'ISVBtzGSIyzSXhDGC')
-        .then((result) => {
+        .then(() => {
           setStatus('Message Sent!');
           setFormData({ name: '', email: '', message: '' });
-        }, (error) => {
+        }, () => {
           setStatus('Something went wrong, please try again.');
         });
     } else {
